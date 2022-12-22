@@ -7,7 +7,10 @@ Program saves every change with comment. She saves difference. When you want to 
 
 *It is file versions storage (file changes).*
 
-Enter comand to create new repository into the present folder:
+Enter comand to create new repository  into the present folder:
 
     git init
-    
+
+Enter comand to check status repository:
+
+    git status
