@@ -44,3 +44,22 @@ If you want to index the change (execute command git add) and to commit the chen
 If you want to index the change (execute command git add), to commit the chenge and to enter comment in terminal, enter comand:
 
     git commit -am "you comment"
+
+## Log commits (changelog)
+
+Enter comand to show log commits present branch with full info about author, date, message:
+
+    git log 
+
+If you want see shortlog commits present branch, enter comand:
+
+    git log --oneline
+
+If you want see log commits all branches with full info about author, date, message, enter comand:
+
+    git log --all
+
+If you want see shortlog commits all branches, enter comand:
+
+    git log --oneline --all
+   
