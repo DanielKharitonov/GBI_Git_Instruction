@@ -14,3 +14,12 @@ Enter comand to create new repository  into the present folder:
 Enter comand to check status repository:
 
     git status
+
+## Adding change to tracking
+
+Enter comand to index the change:
+
+    git add <fale_name>
+
+This means, you want add the change to next commit
+
