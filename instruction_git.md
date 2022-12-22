@@ -23,3 +23,24 @@ Enter comand to index the change:
 
 This means, you want add the change to next commit
 
+## Commit change
+
+Enter comand to commit the chenge:
+
+    git commit
+
+*When text editor (installed by default) will open enter comment to change and exit from text editor*
+
+If you want to enter comment in terminal, enter command:
+
+    git commit -m "you comment"
+
+If you want to index the change (execute command git add) and to commit the chenge, enter comand:
+
+    git commit -a
+
+*When text editor (installed by default) will open enter comment to change and exit from text editor*
+
+If you want to index the change (execute command git add), to commit the chenge and to enter comment in terminal, enter comand:
+
+    git commit -am "you comment"
