@@ -1,78 +1,78 @@
-# Instruction for working with git program
+# Instruction git
 
-_**Git** - is system for monitoring versions file._ 
-Program saves every change with comment. She saves difference. When you want to open version file, program loads source file and adds into the file change the version.
+_**Git** - is system for monitoring file versions._ 
+Program saves every change with comment. She saves difference. When you want to open file version, program loads source file and adds into the file change the version.
 
 ## Repository
 
-*It is file versions storage (file changes).*
+*It is file versions (file changes) storage.*
 
-Enter comand to create new repository  into the present folder:
+Enter command to create new repository into the present folder:
 
     git init
 
-Enter comand to check status repository:
+Enter command to see status repository:
 
     git status
 
 ## Adding change to tracking
 
-Enter comand to index the change:
+Enter command to index a change:
 
     git add <fale_name>
 
-This means, you want add the change to next commit
+This means, you want add a change to next commit
 
 ## Commit change
 
-Enter comand to commit the chenge:
+Enter command to commit a chenge:
 
     git commit
 
-*When text editor (installed by default) will open enter comment to change and exit from text editor*
+*When text editor (installed by default) will open, enter comment to change and exit from text editor*
 
 If you want to enter comment in terminal, enter command:
 
     git commit -m "you comment"
 
-If you want to index the change (execute command git add) and to commit the chenge, enter comand:
+If you want to index all changes (execute command git add) and to commit the chenge, enter command:
 
     git commit -a
 
-*When text editor (installed by default) will open enter comment to change and exit from text editor*
+*When text editor (installed by default) will open, enter comment to change and exit from text editor*
 
-If you want to index the change (execute command git add), to commit the chenge and to enter comment in terminal, enter comand:
+If you want to index all changes (execute command git add), to commit the chenge and to enter comment in terminal, enter command:
 
     git commit -am "you comment"
 
 ## Log commits (changelog)
 
-Enter comand to show log commits present branch with full info about author, date, message:
+Enter command to show log commits present branch with full info (author, date, message):
 
     git log 
 
-If you want see shortlog commits present branch, enter comand:
+If you want see shortlog commits present branch, enter command:
 
     git log --oneline
 
-If you want see log commits all branches with full info about author, date, message, enter comand:
+If you want see log commits all branches with full info (author, date, message, enter command):
 
     git log --all
 
-If you want see shortlog commits all branches, enter comand:
+If you want see shortlog commits all branches, enter command:
 
     git log --oneline --all
 
 ## Moving through commits and branches
 
-Enter comand to move to commit with index "hash":
+Enter command to move to commit with index "hash":
 
     git checkout <hash>
 
-*After comand you will see your file change with index "hash"*
+*After command you will see your file change with index "hash"*
 
-Enter comand for return:
+Enter command for return:
 
     git checkout <name main branch>
 
-Or enter comand with index next commit what you want see
+Or enter command with index next commit, what you want see.
