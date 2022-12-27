@@ -65,6 +65,10 @@ If you want see shortlog commits all branches, enter command:
 
     git log --oneline --all
 
+If you want see in terminal shortlog commits all branches in simple graphic form, enter command:
+
+    git log --oneline --all --graph
+
 ## Moving through commits and branches
 
 Enter command to move to commit with index "hash":
@@ -79,6 +83,10 @@ Enter command for return:
 
 Or enter command with index next commit, what you want see.
 
+If you want to go to another branch, enter command:
+
+    git checkout <branch_name>
+
 ## Viewing the changes
 
 Enter command to show changes between last commit and present file:
@@ -91,7 +99,18 @@ If you want see changes between commits with index "hash1" and "hash2", enter co
 
 ## Branching
 
-...
+*Branching uses for collaborate on the file or changes on the file while another users use this file.*
+
+Enter command to create new branc:
+
+    git branch <branch_name>
+
+
+If you want delete branch, enter command with option:
+
+    git branch -d <branch_name>
+
+*But before that, you will need to execute merging branches*
 
 ## Merging branches
 
