@@ -77,6 +77,10 @@ Enter command for return:
 
 Or enter command with index next commit, what you want see.
 
+If you want to go to another branch, enter command:
+
+    git checkout <branch_name>
+
 ## Viewing the changes
 
 Enter command to show changes between last commit and present file:
