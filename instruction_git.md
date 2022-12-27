@@ -91,6 +91,10 @@ If you want see changes between commits with index "hash1" and "hash2", enter co
 
 ...
 
-## Merging branches
+## Merge one branch wit another branch 
 
-...
+For merging another branch wit your branch (where you are), enter command:
+
+    git merge <branch_name>
+
+*After that there may be a conflict, that you need to solve*
