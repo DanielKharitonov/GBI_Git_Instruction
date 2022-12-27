@@ -99,7 +99,13 @@ Enter command to create new branc:
 
     git branch <branch_name>
 
-    
+
+If you want delete branch, enter command with option:
+
+    git branch -d <branch_name>
+
+*But before that, you will need to execute merging branches*
+
 ## Merging branches
 
 ...
