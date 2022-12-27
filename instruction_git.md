@@ -112,10 +112,4 @@ If you want delete branch, enter command with option:
 
 *But before that, you will need to execute merging branches*
 
-## Merge one branch wit another branch 
-
-For merging another branch wit your branch (where you are), enter command:
-
-    git merge <branch_name>
-
-*After that there may be a conflict, that you need to solve*
+## Conflict
