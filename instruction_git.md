@@ -119,3 +119,5 @@ For merging another branch wit your branch (where you are), enter command:
     git merge <branch_name>
 
 *After that there may be a conflict, that you need to solve*
+
+## Merging conflict
