@@ -89,7 +89,7 @@ If you want see changes between commits with index "hash1" and "hash2", enter co
 
 ## Branching
 
-...
+*Branching uses for collaborate on the file or changes on the file while another users use this file.*
 
 ## Merging branches
 
