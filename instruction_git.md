@@ -87,3 +87,10 @@ If you want see changes between commits with index "hash1" and "hash2", enter co
 
     git diff <hash1> <hash2>
 
+## Branching
+
+...
+
+## Merging branches
+
+...
