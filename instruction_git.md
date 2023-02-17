@@ -121,3 +121,13 @@ For merging another branch wit your branch (where you are), enter command:
 *After that there may be a conflict, that you need to solve*
 
 ## Merging conflict
+
+Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+
+To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
+
+1. Open your text editor and navigate to the file that has merge conflicts.
+2. When you open the file in your text editor, you'll see the changes from  base branch after the line <<<<<<< HEAD. Next, you'll see =======, which divides your changes from the changes in the other branch, followed by >>>>>>> BRANCH-NAME. 
+3. Delete the conflict markers <<<<<<<, =======, >>>>>>> and make the changes you want in the final merge. 
+4. Add or stage your changes.
+5. Commit your changes with a comment.
