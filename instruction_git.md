@@ -138,3 +138,13 @@ Remote repositories are versions of your project saved on the Internet. You can 
 
 Repository management includes both the ability to add new repositories and the ability to delete outdated repositories, as well as the ability to manage various remote branches, declare them tracked or not, and so on.
 
+### Git Clone
+
+The command is used to create a copy of a specific repository or branch within a repository.
+
+When you clone a repository, you don't get one file, like you may in other centralized version control systems. By cloning with Git, you get the entire repository - all files, all branches, and all commits
+
+Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits:
+
+    git clone [url]
+
